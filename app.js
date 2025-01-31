@@ -35,6 +35,7 @@ form.addEventListener('submit', async (event) => {
       title: title.value,
       description: description.value,
       postDate: Timestamp.fromDate(new Date())
+      
     });
 
     console.log("Document written with ID: ", docRef.id);
@@ -86,3 +87,6 @@ divel.addEventListener("click", async (event) => {
 
 // Load Firestore data on page load
 getdatafromfirestore();
+
+
+console.log("todo crud app")
